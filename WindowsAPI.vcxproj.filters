@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{ba8bdc39-9067-4828-96e3-719f61c33d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{34b095ee-d64d-489f-b16a-13a487a2785c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{cac2ab34-4d73-46ea-97f2-7d9acc367059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{2a6d731d-abd3-4944-95be-8cca4c6a010a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{b1bf7eed-19fc-41b5-8812-017dc3aa3896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\utils">
+      <UniqueIdentifier>{38b0b000-a241-4986-a7ac-bd45100cda07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{b9f057d8-882b-4b92-a04b-a67d9e2170c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{93a2e62b-e640-4955-8bea-f3477230fca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{0e16c126-51df-40da-8408-1868e05c734e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{fb282897-0ee8-4aa2-97b7-4d5ac8dfbfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{107425da-d258-4b46-bbed-bc80d6d5c5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{81de8821-7ec3-46c4-8061-18c9a68e47b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{7cafbb26-69f9-42f6-adf0-8c0bcab2139a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1.PLAYGROUND">
+      <UniqueIdentifier>{fc9afe4b-93c8-4cd9-acfc-a62698d7276b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\2.PLAYER">
+      <UniqueIdentifier>{6832563d-4532-4658-b56e-8afc5aad4c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\3.ENEMY_MANAGER">
+      <UniqueIdentifier>{e01eb3ac-9db0-4dcc-a740-34a8ce9f9abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER">
+      <UniqueIdentifier>{fc8e9445-03bd-4e36-ae41-090060ccbb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\5.GAME_MANAGER">
+      <UniqueIdentifier>{8bf944d4-3ba6-43ca-b508-7e889fb5513c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\SFXSTORAGE">
+      <UniqueIdentifier>{b46e5cf6-1061-4e3a-86c6-364c262af58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\1.INTRO">
+      <UniqueIdentifier>{ce85b5d6-2ffc-4d97-97c6-f02f56846984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\2.MAINMENU">
+      <UniqueIdentifier>{99d5010a-a84d-4140-aa52-73cf6b9ca487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\4.MODE">
+      <UniqueIdentifier>{17acbc46-518d-4669-8382-f2a45957fd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\4.MODE\4-1.SETTING">
+      <UniqueIdentifier>{2f125b90-b73f-48d8-8f8b-cbe4fb180c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\5.CHARATERSEL">
+      <UniqueIdentifier>{b8c34fec-7593-479d-aeec-4b8f653d90ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\6.GAME">
+      <UniqueIdentifier>{c9bc8f30-3125-4772-82a4-17e452d8f5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\3.SAVEFILE">
+      <UniqueIdentifier>{55bdae02-8043-4462-a7a6-5c0d01254fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\3.ENEMY_MANAGER\enemy">
+      <UniqueIdentifier>{20b81c4d-1b79-4a81-8bf5-2739f5bf9858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\3.ENEMY_MANAGER\enemy\schoolGirl">
+      <UniqueIdentifier>{974d6b21-4044-4e85-aa0d-f03528c49ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\4.PLAYER_STATE">
+      <UniqueIdentifier>{c185ca3f-e381-4508-bd1b-99ba39ca888f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\IMAGESTORAGE">
+      <UniqueIdentifier>{ab165de8-e08f-446f-af80-90dc4bb6e80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\5.GAME_MANAGER\CAMERA">
+      <UniqueIdentifier>{0bbae0e9-6015-4c81-acc4-98f54f16d1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\1-1.STAGE_MANAGER\6.GAME\objectClass">
+      <UniqueIdentifier>{6d2f53b9-5d28-4075-9b94-750725e368a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\zOrder">
+      <UniqueIdentifier>{fe678922-024f-45d8-a616-139c7f207cf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="imageStorage.h">
+      <Filter>리소스 파일\IMAGESTORAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="sfxStorage.h">
+      <Filter>리소스 파일\SFXSTORAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround\1.PLAYGROUND</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\2.PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="gameManager.h">
+      <Filter>playGround\5.GAME_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="introVideo.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\1.INTRO</Filter>
+    </ClInclude>
+    <ClInclude Include="stageManager.h">
+      <Filter>playGround\1-1.STAGE_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenu.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\2.MAINMENU</Filter>
+    </ClInclude>
+    <ClInclude Include="saveFile.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\3.SAVEFILE</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\4.MODE</Filter>
+    </ClInclude>
+    <ClInclude Include="characterSelect.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\5.CHARATERSEL</Filter>
+    </ClInclude>
+    <ClInclude Include="firstStage.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="secondStage.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdStage.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="bossStage1.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="bossStage2.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="idle.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="atk.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="walk.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>playGround\5.GAME_MANAGER\CAMERA</Filter>
+    </ClInclude>
+    <ClInclude Include="die.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="run.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="schoolGirl.h">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy\schoolGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyState.h">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="dashAttack.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="dashSAttack.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="bossState.h">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="down.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="hit.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="guard.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpAtk.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="sAtkDown.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="sAtk.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="stand.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="stomp.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="stun.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="wait.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="grab.h">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollisionClass.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="zOrder.h">
+      <Filter>playGround\zOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>playGround\5.GAME_MANAGER\CAMERA</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+    <ClInclude Include="desk.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+    <ClInclude Include="objectManager.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+    <ClInclude Include="LPillar.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+    <ClInclude Include="RPillar.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="imageStorage.cpp">
+      <Filter>리소스 파일\IMAGESTORAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="sfxStorage.cpp">
+      <Filter>리소스 파일\SFXSTORAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround\1.PLAYGROUND</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\2.PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="gameManager.cpp">
+      <Filter>playGround\5.GAME_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="introVideo.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\1.INTRO</Filter>
+    </ClCompile>
+    <ClCompile Include="stageManager.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenu.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\2.MAINMENU</Filter>
+    </ClCompile>
+    <ClCompile Include="saveFile.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\3.SAVEFILE</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\4.MODE</Filter>
+    </ClCompile>
+    <ClCompile Include="characterSelect.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\5.CHARATERSEL</Filter>
+    </ClCompile>
+    <ClCompile Include="firstStage.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="secondStage.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdStage.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="bossStage1.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="bossStage2.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="atk.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="idle.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="walk.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>playGround\5.GAME_MANAGER\CAMERA</Filter>
+    </ClCompile>
+    <ClCompile Include="die.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="run.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="schoolGirl.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy\schoolGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyState.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="dashAttack.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="dashSAttack.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="bossState.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\3.ENEMY_MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="hit.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="down.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="guard.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpAtk.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="sAtk.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="sAtkDown.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="stand.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="wait.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="stun.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="stomp.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="grab.cpp">
+      <Filter>playGround\4.PLAYER_STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollisionClass.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="zOrder.cpp">
+      <Filter>playGround\zOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+    <ClCompile Include="desk.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+    <ClCompile Include="objectManager.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+    <ClCompile Include="LPillar.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+    <ClCompile Include="RPillar.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>playGround\1-1.STAGE_MANAGER\6.GAME\objectClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WindowsAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
